@@ -6,6 +6,7 @@ export function Header(props){
 
     return(
         <header>
+            <h1>Project Management App</h1>
             <h1 className="text-gradient"> You have {todosLenght} open {taskOrTasks}.</h1>
         </header>
     )
