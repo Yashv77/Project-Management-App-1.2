@@ -5,7 +5,7 @@ export function Inputs(props) {
   const [inputValue, setInputValue] = useState("");
 
   return (
-    <div className="input=container">
+    <div className="input-container">
       <input
         value={inputValue}
         onChange={(e) => {

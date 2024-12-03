@@ -81,7 +81,7 @@
         --color-gradient: '';
         --color-muted: ;
         --color-link: #60a5fa;
-        --color-link-transparent: rgba(37, 99, 235, 0.1);
+        --color-link-transparent: rgba(37, 99, 235, 0.2);
 
         --color-success: '';
         --color-warning: '';
@@ -584,6 +584,8 @@ details[open] summary {
     background-color: var(--background-muted);
     color: var(--color-primary);
     padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
     border-radius: 0.5rem;
 }
 
